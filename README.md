@@ -49,11 +49,11 @@ The Features are then applied to **Logistic Regression** and **Random Forest** m
 ### Neural Network
 #### LSTM
 - General typical 3-layer LSTM model.
-![](Asset/img/lstm.png)
+![](Asset/img/LSTM.png)
 #### BERT
 - Bidirectional Encoder Representations from Transformers
 - Based on the pre-trained model from Google with our own dataset to fine tune. 
-![](Asset/img/bert.png)
+![](Asset/img/BERT.png)
 ## Evaluation
 1. Traditional Models work well on this case.
 2. Neural Network Models are good in some way
