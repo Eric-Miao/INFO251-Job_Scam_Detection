@@ -1,4 +1,5 @@
 # Identifying Fraudulent Job Postings with ML methods.
+![](Asset/img/report.png)
 ## Author:
 - [Yuxin Miao](https://github.com/Eric-Miao)
 - [Morris Chang](https://github.com/morrischangtwn)
