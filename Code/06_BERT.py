@@ -297,7 +297,7 @@ def loadModel(pre_trained=True):
     loss = tf.keras.losses.BinaryCrossentropy(from_logits=True)
     metric = [AUC(),Recall(),Precision(),BinaryAccuracy(),F1Score]
     epochs = 15
-    steps_per_epoch = len(X_train)
+    steps_per_epoch = 13410
     num_train_steps = steps_per_epoch * epochs
     num_warmup_steps = int(0.1*num_train_steps)
 
@@ -315,7 +315,9 @@ def loadModel(pre_trained=True):
 
 def predict(X_test,y_test,model):
     y_pred = model.predict(X_test)
-    y_pred = np.round(y_pred).astype(int)
+    def sig(x):
+        return 1/(1 + np.exp(-x))
+    y_pred = np.round(sig(y_pred)).astype(int)
     accu = accuracy_score(y_test, y_pred)
     precision = precision_score(y_test, y_pred)
     recall = recall_score(y_test, y_pred)
