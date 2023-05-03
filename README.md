@@ -3,7 +3,7 @@
 ## Author:
 - [Yuxin Miao](https://github.com/Eric-Miao)
 - [Morris Chang](https://github.com/morrischangtwn)
-- [Shuyao Wang]()
+- [Shuyao Wang](https://github.com/Ginawsy)
 ## Introduction
 - Increase usage of online employment websites have lead to increase in fraudulent job postings.
 - Fraudulent job posting have two main goals:
