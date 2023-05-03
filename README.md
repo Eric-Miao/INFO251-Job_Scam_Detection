@@ -40,7 +40,8 @@ Two approaches for Bag of Words to generate features:
 1. Custom Top n-words Model
     - From TOP 50 - 1200 words (in frequency)
 ![](Asset/img/top-n-words.png)
-1. CountVectorizer
+
+2. CountVectorizer
     - n-gram (1, 2, 3, 4)
     - including 1, 2, 3, 4-grams repectively, as well as the combination of different grams.
 ![](Asset/img/countvector.png)
@@ -50,10 +51,12 @@ The Features are then applied to **Logistic Regression** and **Random Forest** m
 #### LSTM
 - General typical 3-layer LSTM model.
 ![](Asset/img/LSTM.png)
+
 #### BERT
 - Bidirectional Encoder Representations from Transformers
 - Based on the pre-trained model from Google with our own dataset to fine tune. 
 ![](Asset/img/BERT.png)
+
 ## Evaluation
 1. Traditional Models work well on this case.
 2. Neural Network Models are good in some way
