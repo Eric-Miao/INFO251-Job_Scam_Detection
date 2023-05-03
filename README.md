@@ -4,6 +4,21 @@
 - [Yuxin Miao](https://github.com/Eric-Miao)
 - [Morris Chang](https://github.com/morrischangtwn)
 - [Shuyao Wang](https://github.com/Ginawsy)
+
+## USAGE
+### Train
+To train models please run:
+```bash
+/bin/bash ./train.sh
+```
+### Test
+To test models please run:
+```bash
+/bin/bash ./test.sh
+```
+### Data Processing and Update (Beta)
+To update your own train/test data, please manualy modify the csv files in ./Data/train.csv and ./Data/test.csv
+
 ## Introduction
 - Increase usage of online employment websites have lead to increase in fraudulent job postings.
 - Fraudulent job posting have two main goals:
